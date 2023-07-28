@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    font-size: 50px;
+    font-family: 'VT323', monospace;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 10px;
+}
+
+#logo img{
+    filter:grayscale(1);
+    height: 60px;
+}
+#navbar{
+    background-color: blueviolet;
+    padding: 15px 15px;
+    font-family: 'Tektur', cursive;
+    background-color: rgb(197, 56, 89);
+}
+#navbar ul{
+
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 5px 30px;
+    color: beige;
+}
+
+#navbar li a:hover{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 5px 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tektur', cursive;
+    font-size: 45px;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    height: 300px;
+    background-color: aqua;
+
+}
+
+#introSection div.small {
+    font-size: 1.5rem;
+}
+
+#motiveSection{
+    height: 300px;
+    background-color: rgb(234, 201, 157);
+}
+
+#motiveSection h2{
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.card {
+    display: inline-block;
+    height: 219px;
+    border-radius: 8px;
+    width: 27%;
+    margin: 17px 48px;
+    border: 2px solid black;
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Tektur', cursive;
+}
+
+#SponsorsSection{
+    height: 300px;
+    background-color: rgb(191, 99, 183);
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.card-img{
+    margin: -6px 7px 0px;
+    height: 160px;
+    padding: 5px 20px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content p{
+    font-size: 20px;
+}
+
+#SponsorsSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+}
+
+.spimg{
+    height: 150px;
+    margin: 27px;;
+}
+#sponsors{
+    height: 100px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+#footer{
+    color: white;
+    height: 58px;
+    background-color: black;
+    align-items: center;
+
+}

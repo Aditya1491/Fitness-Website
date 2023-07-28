@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul
+        div#logo 
+            img(src="/static/logow.jpg")
+            | TDP
+        li #[a(href ="/") Home]
+        li #[a(href ="/") About]
+        li #[a(href ="/") Services]
+        li #[a(href ="/") Diet Info ]
+        li #[a(href ="/") Contact Us  ]
+
+    section#introSection  
+        div WELCOME TO THE DARK PARADISE
+        div.small EAT SLEEP WORKOUT REPEAT
+    
+    section#motiveSection
+        h2 Our Mission 
+        div.card
+            h3 PUSH
+            div.card-box 
+                div.card-img 
+                    img(src="/static/pushw.png")
+                div.card-content 
+                    p Push Your Limits
+        div.card
+            h3 PULL
+            div.card-box 
+                div.card-img 
+                    img(src="/static/pullw.png")
+                div.card-content 
+                    p Push Your Limits
+        div.card
+            h3 LEGS
+            div.card-box 
+                div.card-img 
+                    img(src="/static/legsw.png")
+                div.card-content 
+                    p Push Your Limits
+
+    section#SponsorsSection
+        h2 Our Sponsors 
+        div#sponsors 
+            img(src="/static/logo1.png" alt="Sponsors image", class="spimg")
+            img(src="/static/logo2.png" alt="Sponsors image", class="spimg")
+            img(src="/static/logo3.png" alt="Sponsors image", class="spimg")
+            img(src="/static/logo4.png" alt="Sponsors image", class="spimg")
+    
+    footer#footer 
+        | Copyright © 2023 Dark Paradise.com | All rights reserved
+    script
+      include ../static/index.js 
